@@ -1,0 +1,21 @@
+.header{
+    display: flex;
+    padding: 30px;
+}
+.header h3{
+    flex: 1;
+    font-style: italic;
+    font-size: 30px;
+    margin-left: 20px;
+}
+.header ul{
+    display: flex;
+    list-style: none;
+    gap: 20px
+}
+.header ul li{
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 20px;
+}
